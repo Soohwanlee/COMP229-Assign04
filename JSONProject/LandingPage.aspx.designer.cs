@@ -11,7 +11,7 @@ namespace JSONProject
 {
 
 
-    public partial class Contact
+    public partial class LandingPage
     {
     }
 }
