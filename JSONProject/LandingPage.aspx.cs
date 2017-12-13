@@ -11,7 +11,8 @@ namespace JSONProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            repeater1.DataSource = Global.models;
+            repeater1.DataBind();
         }
     }
 }
