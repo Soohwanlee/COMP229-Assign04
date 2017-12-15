@@ -64,6 +64,7 @@ namespace JSONProject
 
             if(modelData.specialAbilities != null)
             {
+                SpecialTitle.Visible = true;
                 repeater3.Visible = true;
                 repeater3.DataSource = modelData.specialAbilities;
                 repeater3.DataBind();

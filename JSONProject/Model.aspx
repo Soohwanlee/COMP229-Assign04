@@ -52,7 +52,7 @@
                         <br />
                     </ItemTemplate>
                 </asp:Repeater>
-                <h2 style="text-align: center">Special Abilities</h2>
+                <h2 ID="SpecialTitle" style="text-align: center" runat="server" visible="false">Special Abilities</h2>
                 <asp:Repeater ID="repeater3" runat="server">
                     <ItemTemplate>
                         <strong>Name : </strong><%# Eval("name") %><br />
@@ -62,6 +62,7 @@
                         <br />
                     </ItemTemplate>
                 </asp:Repeater>
+                <asp:Button ID="Update" CssClass="btn btn-lg btn-info" runat="server" Text="Update" OnClick="Update_Click"  />
 
             </div>
         </div>

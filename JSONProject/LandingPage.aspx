@@ -21,6 +21,8 @@
                     <img src="<%#Eval("imageUrl") %>" width=400px alt="<%# Eval("name") %>"" /><br />
                     <asp:LinkButton ID="PlayerNames" runat="server" Text='<%# Eval("name")%>' PostBackUrl='<%#string.Format("Model.aspx?name={0}&faction={1}", Eval("name"), Eval("faction")) %>' />
                     <br />
+                    <hr />
+                    <br />
                 </ItemTemplate>
      </asp:Repeater>
                  </center>
