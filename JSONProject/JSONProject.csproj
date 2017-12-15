@@ -221,6 +221,7 @@
     <Content Include="App_Data\Assign04.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="LandingPage.aspx" />
+    <Content Include="Model.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -388,6 +389,13 @@
     </Compile>
     <Compile Include="LandingPage.aspx.designer.cs">
       <DependentUpon>LandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model.aspx.cs">
+      <DependentUpon>Model.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Model.aspx.designer.cs">
+      <DependentUpon>Model.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Model.cs" />

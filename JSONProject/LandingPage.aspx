@@ -9,7 +9,6 @@
         </div>
 
         <div class="row">
-            <h1 class="text-center">Welcome and Enjoy the game!!</h1>
             <div class="col-md-3">
             </div>
 
@@ -19,7 +18,7 @@
      <asp:Repeater ID="repeater1" runat="server">
                 <ItemTemplate>
                    
-                    <img src="<%#Eval("imageUrl") %>" width="200px" alt="<%# Eval("name") %>"" /><br />
+                    <img src="<%#Eval("imageUrl") %>" width=400px alt="<%# Eval("name") %>"" /><br />
                     <asp:LinkButton ID="PlayerNames" runat="server" Text='<%# Eval("name")%>' PostBackUrl='<%#string.Format("Model.aspx?name={0}&faction={1}", Eval("name"), Eval("faction")) %>' />
                     <br />
                 </ItemTemplate>
