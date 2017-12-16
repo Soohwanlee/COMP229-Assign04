@@ -16,7 +16,7 @@ namespace JSONProject
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.Title = "Model Addition";
         }
 
         private void updateNewJSON()

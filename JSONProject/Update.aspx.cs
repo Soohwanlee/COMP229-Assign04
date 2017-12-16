@@ -34,6 +34,7 @@ namespace JSONProject
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Page.Title = "Update Models";
             string Name = Request.QueryString["name"];
             string Faction = Request.QueryString["faction"];
             updateModel = Global.models.FirstOrDefault(fModel => fModel.name == Name && fModel.faction == Faction);

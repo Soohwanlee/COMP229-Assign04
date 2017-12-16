@@ -10,8 +10,10 @@ namespace JSONProject
     public partial class Model : System.Web.UI.Page
     {
         private Models.Model.ModelsData modelData;
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            
             string Name = Request.QueryString["name"];
             string Faction = Request.QueryString["faction"];
 
@@ -32,6 +34,7 @@ namespace JSONProject
             {
                 Response.Write("Error, please try again");
             }
+            Page.Title = "Model Details";
         }
 
         private void DisplayData()

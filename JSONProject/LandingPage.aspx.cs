@@ -13,6 +13,7 @@ namespace JSONProject
         {
             repeater1.DataSource = Global.models;
             repeater1.DataBind();
+            Page.Title = "The Wrath of Kings";
         }
 
 

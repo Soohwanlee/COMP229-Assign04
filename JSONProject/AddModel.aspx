@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddModel.aspx.cs" Inherits="JSONProject.AddModel" %>
+﻿<%@ Page Title="Model Addition" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddModel.aspx.cs" Inherits="JSONProject.AddModel" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
       <br />
     <br />
@@ -67,7 +67,7 @@
                     <br />
                     <br />
                     <br />
-
+                   <h2 style="text-align: center" runat="server">Get an E-mail of new Info</h2>
                     <strong>E-mail :</strong>
                     <asp:Textbox ID="TextboxEmail" runat="server"></asp:Textbox>
                     <strong>Name :</strong>
