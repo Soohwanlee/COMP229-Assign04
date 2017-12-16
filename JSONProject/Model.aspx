@@ -62,7 +62,7 @@
                         <br />
                     </ItemTemplate>
                 </asp:Repeater>
-                <asp:Button ID="Update" CssClass="btn btn-lg btn-info" runat="server" Text="Update" OnClick="Update_Click"  />
+                <asp:Button ID="Update" CssClass="btn btn-lg btn-info" runat="server" Text="Update"  />
 
             </div>
         </div>

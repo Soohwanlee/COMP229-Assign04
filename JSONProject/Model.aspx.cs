@@ -52,6 +52,8 @@ namespace JSONProject
             lblWounds.Text = Convert.ToString(modelData.wounds);
             lblResiliance.Text = Convert.ToString(modelData.resiliance);
             ActionSpecial();
+
+            Update.PostBackUrl = "~/Update.aspx?name=" + modelData.name + "&faction=" + modelData.faction;
         }
 
         private void ActionSpecial()

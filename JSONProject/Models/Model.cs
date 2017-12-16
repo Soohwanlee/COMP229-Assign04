@@ -25,6 +25,11 @@ namespace JSONProject.Models
             public Action[] actions { get; set; }
             public Specialability[] specialAbilities { get; set; }
             public string imageUrl { get; set; }
+
+            internal static List<JSONProject.Model> ToList()
+            {
+                throw new NotImplementedException();
+            }
         }
 
         public class Action
