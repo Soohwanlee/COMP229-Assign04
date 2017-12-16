@@ -14,5 +14,11 @@ namespace JSONProject
             repeater1.DataSource = Global.models;
             repeater1.DataBind();
         }
+
+
+        protected void addButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddModel.aspx");
+        }
     }
 }

@@ -51,7 +51,7 @@ namespace JSONProject
             }
             catch
             {
-                Response.Write("Error, please try again");
+                Response.Write("");
             }
         }
 
@@ -80,22 +80,25 @@ namespace JSONProject
             plWounds.Controls.Add(txtBoxWounds);
             txtBoxTraits.Text = updateModel.traits.ToString();
             plTraits.Controls.Add(txtBoxTraits);
+            txtBoxDefence.Text = updateModel.defenseChart[0];
+            plTraits.Controls.Add(txtBoxDefence);
 
-                txtBoxActName.Text = updateModel.actions[0].name;
-                plActName.Controls.Add(txtBoxActName);
-                txtBoxActRange.Text = updateModel.actions[0].range;
-                plActRange.Controls.Add(txtBoxActRange);
-                txtBoxActRating.Text = updateModel.actions[0].rating.ToString();
-                plActRating.Controls.Add(txtBoxActRating);
-                txtBoxActType.Text = updateModel.actions[0].type;
-                plActType.Controls.Add(txtBoxActType);
-                txtBoxActDesc.Text = updateModel.actions[0].description;
-                plActDesc.Controls.Add(txtBoxActDesc);
 
-                txtBoxSplName.Text = updateModel.specialAbilities[0].name;
-                plSplName.Controls.Add(txtBoxSplName);
-                txtBoxSplDesc.Text = updateModel.specialAbilities[0].description;
-                plSplDesc.Controls.Add(txtBoxSplDesc);
+            txtBoxActName.Text = updateModel.actions[0].name;
+            plActName.Controls.Add(txtBoxActName);
+            txtBoxActRange.Text = updateModel.actions[0].range;
+            plActRange.Controls.Add(txtBoxActRange);
+            txtBoxActRating.Text = updateModel.actions[0].rating.ToString();
+            plActRating.Controls.Add(txtBoxActRating);
+            txtBoxActType.Text = updateModel.actions[0].type;
+            plActType.Controls.Add(txtBoxActType);
+            txtBoxActDesc.Text = updateModel.actions[0].description;
+            plActDesc.Controls.Add(txtBoxActDesc);
+
+            txtBoxSplName.Text = updateModel.specialAbilities[0].name;
+            plSplName.Controls.Add(txtBoxSplName);
+            txtBoxSplDesc.Text = updateModel.specialAbilities[0].description;
+            plSplDesc.Controls.Add(txtBoxSplDesc);
 
 
         }
@@ -121,6 +124,7 @@ namespace JSONProject
             updateModel.wounds = Convert.ToInt32(txtBoxWounds.Text);
             updateModel.traits[0] = txtBoxTypes.Text;
             updateModel.types[0] = txtBoxTypes.Text;
+            updateModel.defenseChart[0] = txtBoxDefence.Text;
 
 
             updateModel.actions[0].name = txtBoxActName.Text;

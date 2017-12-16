@@ -10,7 +10,7 @@
 namespace JSONProject {
     
     
-    public partial class Model {
+    public partial class AddModel {
         
         /// <summary>
         /// ImageId control.
@@ -22,15 +22,6 @@ namespace JSONProject {
         protected global::System.Web.UI.WebControls.Image ImageId;
         
         /// <summary>
-        /// lblTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitle;
-        
-        /// <summary>
         /// lblId control.
         /// </summary>
         /// <remarks>
@@ -40,156 +31,192 @@ namespace JSONProject {
         protected global::System.Web.UI.WebControls.Label lblId;
         
         /// <summary>
-        /// lblName control.
+        /// txtBoxName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblName;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxName;
         
         /// <summary>
-        /// lblFaction control.
+        /// txtBoxFaction control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFaction;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxFaction;
         
         /// <summary>
-        /// lblRank control.
+        /// txtBoxRank control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRank;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxRank;
         
         /// <summary>
-        /// lblBase control.
+        /// txtBoxBase control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBase;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxBase;
         
         /// <summary>
-        /// lblDeployment control.
+        /// txtBoxDeployment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDeployment;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxDeployment;
         
         /// <summary>
-        /// lblSize control.
+        /// txtBoxSize control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSize;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxSize;
         
         /// <summary>
-        /// lblTraits control.
+        /// txtBoxTraits control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTraits;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxTraits;
         
         /// <summary>
-        /// lblTypes control.
+        /// txtBoxTypes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTypes;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxTypes;
         
         /// <summary>
-        /// lblDefence control.
+        /// txtBoxDefence control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDefence;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxDefence;
         
         /// <summary>
-        /// lblMobility control.
+        /// txtBoxMobility control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMobility;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxMobility;
         
         /// <summary>
-        /// lblResiliance control.
+        /// txtBoxResiliance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResiliance;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxResiliance;
         
         /// <summary>
-        /// lblWounds control.
+        /// txtBoxWounds control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWounds;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxWounds;
         
         /// <summary>
-        /// repeater2 control.
+        /// txtBoxActName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeater2;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxActName;
         
         /// <summary>
-        /// SpecialTitle control.
+        /// txtBoxActType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl SpecialTitle;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxActType;
         
         /// <summary>
-        /// repeater3 control.
+        /// txtBoxActRating control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeater3;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxActRating;
         
         /// <summary>
-        /// Update control.
+        /// txtBoxActRange control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Update;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxActRange;
         
         /// <summary>
-        /// Delete control.
+        /// txtBoxActDesc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Delete;
+        protected global::System.Web.UI.WebControls.TextBox txtBoxActDesc;
+        
+        /// <summary>
+        /// txtBoxSplName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBoxSplName;
+        
+        /// <summary>
+        /// txtBoxSplDesc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBoxSplDesc;
+        
+        /// <summary>
+        /// TextboxEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextboxEmail;
+        
+        /// <summary>
+        /// TextboxEmailName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextboxEmailName;
     }
 }

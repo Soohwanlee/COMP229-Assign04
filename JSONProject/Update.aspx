@@ -21,9 +21,9 @@
                 <asp:Placeholder ID="plRank" runat="server"></asp:Placeholder><br /><br />
                 <strong>Base : </strong>
                 <asp:Placeholder ID="plBase" runat="server"></asp:Placeholder><br /><br />
-                <strong>Size : </strong>
+                <strong>Deployment : </strong>
                 <asp:Placeholder ID="plDeployment" runat="server"></asp:Placeholder><br /><br />
-                <strong>Traits : </strong>
+                <strong>Size : </strong>
                 <asp:Placeholder ID="plSize" runat="server"></asp:Placeholder><br /><br />
                 <strong>Traits : </strong>
                 <asp:Placeholder ID="plTraits" runat="server"></asp:Placeholder><br /><br />
@@ -40,7 +40,7 @@
                 <hr />
 
                 <h2 style="text-align: center">Actions</h2>
-                    <strong>Type:</strong>
+                    <strong>Name:</strong>
                     <asp:Placeholder ID="plActName" runat="server"></asp:Placeholder>
                     <br /><br />
                     <strong>Type:</strong>

@@ -9,7 +9,9 @@
         </div>
 
         <div class="row">
+            
             <div class="col-md-3">
+                <asp:Button CssClass="btn btn-lg btn-info" runat="server" Text="Add a New Model" OnClick="addButton_Click"  />
             </div>
 
             <div class="col-md-6">

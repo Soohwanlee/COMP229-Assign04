@@ -63,6 +63,7 @@
                     </ItemTemplate>
                 </asp:Repeater>
                 <asp:Button ID="Update" CssClass="btn btn-lg btn-info" runat="server" Text="Update"  />
+                <asp:Button ID="Delete" CssClass="btn btn-lg btn-dangerous" runat="server" Text="Delete"  />
 
             </div>
         </div>

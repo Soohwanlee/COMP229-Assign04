@@ -198,6 +198,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AddModel.aspx" />
     <Content Include="Assets\images\logo.png" />
     <Content Include="Assets\images\WrathOfKings.png" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -376,6 +377,13 @@
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddModel.aspx.cs">
+      <DependentUpon>AddModel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddModel.aspx.designer.cs">
+      <DependentUpon>AddModel.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
